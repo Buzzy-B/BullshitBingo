@@ -5,7 +5,7 @@ public class DefaultSettings {
 	
 	//default buzzword list
 	public String getBuzzwords() {
-		return "Sonderlocke,Tiefenbohrung,Wording,Optimierungsbedarf,Akzeptanzkriterien,Forschungsauftrag,Durchstich,streamlinen,aufgleisen,Klärungsbedarf,Druck machen,Cloud Competence Center/ CCC,Quick Win,greenlighten,Wissenstransfer,Bullet Points,BiPRO Norm,Prototyp,On Hold,Enabler,onboarden,Wackelpudding,proaktiv,Eckpfeiler,Leitplanken,in die Spur bringen,aufgehübscht,Senior,Junior";
+		return "Sonderlocke,ergebnisorientiert,Stakeholder,Teilprojektleiter,annahmenbasiert,pragmatisch,Tiefenbohrung,Wording,Optimierungsbedarf,Akzeptanzkriterien,Forschungsauftrag,Durchstich,streamlinen,aufgleisen,Klärungsbedarf,Druck machen,Cloud Competence Center/ CCC,Quick Win,greenlighten,Wissenstransfer,Bullet Points,BiPRO Norm,Prototyp,On Hold,Enabler,onboarden,Wackelpudding,proaktiv,Eckpfeiler,Leitplanken,in die Spur bringen,aufgehübscht,Senior,Junior,Reminder";
 	}
 	
 	//default separator character for buzzword list
