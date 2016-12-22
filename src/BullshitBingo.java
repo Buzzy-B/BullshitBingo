@@ -4,7 +4,7 @@ import java.util.List;
 import bullshitbingo.BullshitBingoCalculator;
 import bullshitbingo.DefaultSettings;
 
-
+//BULLSHIT BINGO MAIN CLASS
 public class BullshitBingo {
 
 	public static void main(String[] args) throws Exception {
@@ -22,19 +22,25 @@ public class BullshitBingo {
 		
 		BullshitBingoCalculator bullshitBingoCalculator = new BullshitBingoCalculator();
 		
+		//COMMAND LINE
 		if (args.length > 0) {
 			for (int i=0; i<args.length; i++) {
 				if (args[i].equals("--help")) {
-						System.out.println("-------------------");
-						System.out.println("BULLSHIT BINGO HELP");
-						System.out.println();
-						System.out.println("Accepted argumens:");
-						System.out.println("   --numberOfRows (int): Changes the size of the game (default: 5)");
-						System.out.println("   --buzzwords (String): Determines the content (default content if empty)");
-						System.out.println("   --separator (char): Sets the separator character of the buzzwords string (default: \',\')");
-						System.out.println("-------------------");
-						return;
+					
+					//help
+					System.out.println("-------------------");
+					System.out.println("BULLSHIT BINGO HELP");
+					System.out.println();
+					System.out.println("Accepted argumens:");
+					System.out.println("   --numberOfRows (int): Changes the size of the game (default: 5)");
+					System.out.println("   --buzzwords (String): Determines the content (default content if empty)");
+					System.out.println("   --separator (char): Sets the separator character of the buzzwords string (default: \',\')");
+					System.out.println("-------------------");
+					return;
+					
 				} else if (args[i].equals("--numberOfRows")) {
+					
+					//number of rows (always equals number of columbs)
 					if (args.length < i+2){
 						throw new Exception ("Optional argument --numberOfRows must be specified when used");
 					} else {
@@ -43,7 +49,10 @@ public class BullshitBingo {
 						}
 						numberOfRows = Integer.valueOf(args[i+1]);
 					}
+					
 				} else if (args[i].equals("--buzzwords")) {
+					
+					//buzzwords
 					if (args.length < i+2){
 						throw new Exception ("Optional argument --buzzwords must be specified when used");
 					} else {
@@ -52,7 +61,10 @@ public class BullshitBingo {
 						}
 						buzzwords = args[i+1];
 					}
+					
 				} else if (args[i].equals("--separator")) {
+					
+					//separsator
 					if (args.length < i+2){
 						throw new Exception ("Optional argument --separator must be specified when used");
 					} else {
@@ -66,6 +78,7 @@ public class BullshitBingo {
 							throw new Exception("Optional argument --separator must be specified when used and the separator must be surrounded by hyphens");
 						}
 					}
+					
 				}
 			}
 		}
