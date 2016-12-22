@@ -5,6 +5,8 @@ import bullshitbingo.BullshitBingoCalculator;
 import bullshitbingo.DefaultSettings;
 
 //BULLSHIT BINGO MAIN CLASS
+//command line tool
+
 public class BullshitBingo {
 
 	public static void main(String[] args) throws Exception {
@@ -64,7 +66,7 @@ public class BullshitBingo {
 					
 				} else if (args[i].equals("--separator")) {
 					
-					//separsator
+					//separator
 					if (args.length < i+2){
 						throw new Exception ("Optional argument --separator must be specified when used");
 					} else {
