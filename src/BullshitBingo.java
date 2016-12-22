@@ -145,7 +145,7 @@ public class BullshitBingo {
 		}
 			
 
-		//FILL FIELDS
+		//FILL FIELDS AND PRINT OUTPUT TO CLI
 		for (int i=0; i<numberOfFields; i++) {
 			//fill field and remove index from list of unused content indices
 			int currentIndex = (int) ((unusedContentIndices.size()-1) * Math.random());
