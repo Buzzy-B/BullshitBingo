@@ -1,9 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
-
-import bullshitbingo.BullshitBingoCalculator;
 import bullshitbingo.GameService;
-import bullshitbingo.DefaultSettings;
 import bullshitbingo.GameConfiguration;
 
 //BULLSHIT BINGO MAIN CLASS
