@@ -16,7 +16,7 @@ public class BullshitBingo {
 		
 		//VALIDATE CONFIGURATION AND CREATE FIELDS (if configuration not null)
 		if (gameConfiguration != null) {
-			gameConfiguration.validate();					//validate game configuration
+			gameConfiguration.validate();			//validate game configuration
 			gameService.createFields(gameConfiguration);	//create fields
 		}
 	}
