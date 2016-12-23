@@ -1,7 +1,6 @@
 # BullshitBingo
 #
-# This is a buzzword bingo game. In the current version, it only runs in the command line and it only outputs playing fields
-# to the command line.
+# This is a buzzword bingo game. In the current version, only command line use is supported.
 #
 # Usage: Run the program from the command line.
 #
@@ -14,5 +13,5 @@
 #
 # TODO:
 # Read default data from external text file
-# Use library for implementation of the command line interface
+# Use Commons CLI library for implementation of the command line interface
 # Output data in JSON format
