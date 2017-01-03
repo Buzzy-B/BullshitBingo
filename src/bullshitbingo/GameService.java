@@ -15,9 +15,8 @@ public class GameService {
 			for (int i=0; i<args.length; i++) {
 				if (args[i].equals("--help")) {
 					
+					//print help
 					printHelpMenu();
-					//help
-					
 					return null;
 					
 				} else if (args[i].equals("--numberOfRows")) {
